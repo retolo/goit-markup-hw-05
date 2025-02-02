@@ -575,7 +575,40 @@ p{
     justify-content: center;
 }
 
+.btn_quit:hover{
+    background-color: #404BBF;
+}
 
+.btn_quit:hover .close-icon{
+    fill: #fff;
+}
+
+.modal-icon-name{
+    width: 18px;
+    height: 24px;
+    position: absolute;
+    left: 40px;
+    top: 141px;
+/*    padding-left: 16px;*/
+}
+
+.modal-icon-tel{
+    width: 18px;
+    height: 24px;
+    position: absolute;
+    left: 40px;
+    top: 204px;
+/*    padding-left: 16px;*/
+}
+
+.modal-icon-email{
+    width: 18px;
+    height: 18px;
+    position: absolute;
+    left: 40px;
+    top: 270px;
+/*    padding-left: 16px;*/
+}
 
 .modal-header-text{
     font-weight: 500;
