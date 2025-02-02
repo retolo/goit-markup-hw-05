@@ -535,6 +535,9 @@ p{
     letter-spacing: 0.02em;
     color: #fff;
     margin-bottom: 16px;
+    margin-left: auto;
+
+
 }
 
 .form-foot-input{
@@ -555,6 +558,13 @@ p{
 .footer-form{
     display: flex;
     gap: 24px;
+    align-items: flex-end;
+}
+
+.footer-form-block{
+    margin-left: 80px;
+
+
 }
 
 .send_button{
