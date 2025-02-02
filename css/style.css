@@ -540,6 +540,10 @@ p{
 
 }
 
+.form-foot-input::placeholder{
+    color: #FFF;
+}
+
 .form-foot-input{
     border: 1px solid #fff;
     border-radius: 4px;
