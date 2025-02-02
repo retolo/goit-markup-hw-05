@@ -543,7 +543,7 @@ p{
 
 .modal{
     width: 408px;
-    height: 584px;
+    min-height: 584px;
     position: absolute;
     top: 50%;
     left: 50%;
@@ -554,6 +554,7 @@ p{
     padding-right: 24px;
     padding-bottom: 24px;
     padding-top: 72px;
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 2px 1px rgba(0, 0, 0, 0.2);
 }
 
 .icon-modal{
@@ -615,14 +616,20 @@ p{
     border: 1px solid #2E2F42;
     padding-top: 8px;
     padding-left: 16px;
-
-}
-
-.modal-area::placeholder{
     font-size: 12px;
     line-height: 1.17;
     letter-spacing: 0.04em;
     color: #2E2F42;
+    resize: none;
+    color: rgba(46, 47, 66, 0.4);
+    border: 1px solid rgba(46, 47, 66, 0.4);
+    background-color: transparent;
+    outline: transparent;
+
+}
+
+.modal-area::placeholder{
+
 
 }
 
@@ -652,4 +659,6 @@ p{
 
 
 }
+
+
 
