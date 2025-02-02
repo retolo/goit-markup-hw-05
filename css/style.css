@@ -663,16 +663,15 @@ p{
 }
 
 .modal-icon-name{
-    width: 18px;
-    height: 24px;
     position: absolute;
     left: 16px;
     top: 50%;
     transform: translateY(-50%);
+    transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.modal-icon-name:hover,
-.modal-icon-name:focus{
+
+.modal-input:focus .modal-icon-name{
     fill: #4D5AE5;
 }
 
@@ -713,6 +712,8 @@ p{
     padding-left: 38px;
     outline: transparent;
     border: 1px solid rgba(46, 47, 66, 0.4);
+    background-color: transparent;
+    transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
 
 
@@ -733,7 +734,7 @@ p{
     margin-bottom: 8px;
 }
 
-.modal-input:active{
+.modal-input:focus{
     border-color: #4D5AE5;
 }
 
