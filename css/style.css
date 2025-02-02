@@ -774,7 +774,12 @@ p{
     border: 1px solid rgba(46, 47, 66, 0.4);
     background-color: transparent;
     outline: transparent;
+    transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
+}
+
+.modal-area:focus{
+    border-color: #4D5AE5;
 }
 
 
@@ -809,5 +814,28 @@ p{
 
 .email-block{
     position: relative;
+}
+
+.check-block{
+    margin-bottom: 24px;
+}
+
+
+.check-icon-span{
+    display: inline-flex;
+    width: 16px;
+    height: 16px;
+    fill: transparent;
+    align-items: center;
+    justify-content: center;
+    fill: #000;
+    border: 1px solid rgba(46, 47, 66, 0.4);
+    border-radius: 2px;
+    transition: backgound-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.check-block:checked .check-icon-span{
+    background-color: #404bbf;
+    fill: #f4f4fd;
 }
 

@@ -505,26 +505,35 @@
                 </svg>
             </div>
                 </div>
-
-            <label for="text_area" class="modal-label">Comment</label>
-            <textarea
-                    name="comment"
-                    placeholder="Text input"
-                    id="text_area"
-                    class="modal-area"></textarea>
-
+            <div class="wrapper">
+                <label for="user-comment" class="modal-label">Comment</label>
+                <textarea
+                        name="user-comment"
+                        placeholder="Text input"
+                        id="user-comment"
+                        class="modal-area"></textarea>
+            </div>
             <div class="check-block">
                 <input
                     type="checkbox"
-                    name="user_check"
-                    id="policy"
-                    class="modal-input-check"
+                    name="user_privacy"
+                    id="user-privacy"
+                    class="modal-input-check visually-hidden"
+                    value="true"
 
             >
 
-            <label for="policy" class="modal-label-check">
+            <label for="user-privacy" class="modal-label-check">
+                <span class="check-icon-span">
+                    <svg width="10" height="8" >
+                        <use href="./images/symbol-defs.svg#icon-Vector"></use>
+                    </svg>
+                </span>
+
                 I accept the terms and conditions of the <a href="" class="privacy-policy">Privacy Policy</a>
+
             </label>
+
 
             </div>
 
