@@ -655,27 +655,31 @@ p{
     width: 18px;
     height: 24px;
     position: absolute;
-    left: 40px;
-    top: 141px;
+    left: 16px;
+    top: 8px;
 /*    padding-left: 16px;*/
+}
+
+.modal-icon-name:hover{
+    fill: #4D5AE5;
 }
 
 .modal-icon-tel{
     width: 18px;
     height: 24px;
     position: absolute;
-    left: 40px;
-    top: 204px;
+    left: 16px;
+    top: 8px;
 /*    padding-left: 16px;*/
 }
 
 .modal-icon-email{
     width: 18px;
-    height: 18px;
+    height: 24px;
     position: absolute;
-    left: 40px;
-    top: 270px;
-/*    padding-left: 16px;*/
+    left: 16px;
+    top: 8px;
+
 }
 
 .modal-header-text{
@@ -696,6 +700,7 @@ p{
     padding-left: 38px;
     outline: transparent;
     border: 1px solid rgba(46, 47, 66, 0.4);
+
 
 
 }
@@ -785,4 +790,8 @@ p{
 
 }
 
+
+.email-block{
+    position: relative;
+}
 
