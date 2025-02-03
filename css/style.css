@@ -40,11 +40,12 @@ body{
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #2e2f42;
-    padding-bottom: 24px;
+    padding-bottom: 20px;
     padding-top:24px;
 
 
 }
+
 
 
 
@@ -750,8 +751,9 @@ p{
     letter-spacing: 0.04em;
     color: #8E8F99;
     padding-bottom: 4px;
-    padding-top: 16px;
-    padding-bottom: 24px;
+/*    padding-top: 16px;*/
+/*    padding-bottom: 24px;*/
+    padding: 0;
 
 }
 
@@ -833,6 +835,7 @@ p{
 
 
 .check-icon-span{
+    margin-right: 8px;
     display: inline-flex;
     width: 16px;
     height: 16px;
